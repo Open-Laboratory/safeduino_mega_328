@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Fri 19 Feb 2016 17:22:06 MSK
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Wed 24 Feb 2016 16:17:09 MSK
 
 BeginCmp
 TimeStamp = /56C6EFAB;
@@ -166,6 +166,20 @@ TimeStamp = /56C6EF52;
 Reference = DD3;
 ValeurCmp = ADUM1301;
 IdModule  = SOIC16_RW16;
+EndCmp
+
+BeginCmp
+TimeStamp = /56CDB6FF;
+Reference = FU1;
+ValeurCmp = MF-MSMF050;
+IdModule  = SMD1812;
+EndCmp
+
+BeginCmp
+TimeStamp = /56CDAEE3;
+Reference = FU2;
+ValeurCmp = MF-MSMF050;
+IdModule  = SMD1812;
 EndCmp
 
 BeginCmp
