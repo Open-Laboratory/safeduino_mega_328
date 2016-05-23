@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:safeduino_mega_328-rescue
 LIBS:LFcapitors
 LIBS:LFcomponents
 LIBS:LFconnectors
@@ -8,7 +9,7 @@ LIBS:LFtransformator
 LIBS:LFbutton
 LIBS:LFtransistor
 LIBS:safeduino_mega_328-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1326,7 +1327,7 @@ GND
 Text Label 8100 3950 0    60   ~ 0
 RESET
 $Comp
-L BUTTON_SMD_1 S1
+L button_smd_1 S1
 U 1 1 4CE689D3
 P 8550 3950
 F 0 "S1" H 8900 4350 60  0000 C CNN
@@ -1549,7 +1550,7 @@ $EndComp
 Text Label 2050 6800 2    60   ~ 0
 5V_USB
 $Comp
-L ATMEGA168-20AU DD1
+L ATmega168-20AU DD1
 U 1 1 4CE2AA57
 P 7300 1050
 F 0 "DD1" H 8850 1250 60  0000 C CNN
