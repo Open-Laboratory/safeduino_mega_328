@@ -3,7 +3,7 @@
   (general
     (links 209)
     (no_connects 0)
-    (area 46.672499 89.471499 188.150501 153.733501)
+    (area 53.276499 89.471499 188.150501 153.733501)
     (thickness 1.6002)
     (drawings 83)
     (tracks 949)
@@ -61,7 +61,7 @@
     (pad_drill 1)
     (pad_to_mask_clearance 0.254)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFFBF)
+    (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -4948,11 +4948,11 @@
     )
   )
 
-  (module SOD110 (layer Back) (tedit 56C71A54) (tstamp 56C710C5)
+  (module SOD110 (layer Back) (tedit 5B51E466) (tstamp 56C710C5)
     (at 65.659 108.077 270)
     (tags SOT23_5)
     (path /56C7183A)
-    (fp_text reference VD5 (at -1.524 0 360) (layer B.SilkS)
+    (fp_text reference VD5 (at -1.651 -0.635 360) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.0762)) (justify mirror))
     )
     (fp_text value BAS216 (at 1.397 -1.778 270) (layer B.SilkS) hide
@@ -5149,11 +5149,11 @@
     )
   )
 
-  (module SMD0805 (layer Back) (tedit 56C71A4F) (tstamp 56C7111F)
+  (module SMD0805 (layer Back) (tedit 5B51E46D) (tstamp 56C7111F)
     (at 67.945 108.966 270)
     (path /56C7184C)
     (attr smd)
-    (fp_text reference R10 (at -2.413 0 360) (layer B.SilkS)
+    (fp_text reference R10 (at -2.286 -0.889 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10к (at 0.254 -1.524 270) (layer B.SilkS) hide
@@ -5199,11 +5199,11 @@
     )
   )
 
-  (module SMD0805 (layer Back) (tedit 56C83C6A) (tstamp 56C71133)
+  (module SMD0805 (layer Back) (tedit 5B51E484) (tstamp 56C71133)
     (at 64.516 117.983 180)
     (path /56C70C38)
     (attr smd)
-    (fp_text reference C8 (at -2.54 0 270) (layer B.SilkS)
+    (fp_text reference C8 (at 2.54 0.127 270) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 0.1мк (at 0.254 -1.524 180) (layer B.SilkS) hide
